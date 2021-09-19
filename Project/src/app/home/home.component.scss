@@ -1,0 +1,19 @@
+.parallax {
+  background-image: url("../../image/pexel.jpg");
+  min-height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media(max-width:768px){
+  .parallax {
+    min-height: 400px;
+  }
+}
+.coffeeStory{
+  img{
+    max-height: 600px;
+  }
+}
