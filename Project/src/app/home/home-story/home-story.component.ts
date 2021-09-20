@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+import * as AOS from 'aos';
 @Component({
   selector: 'app-home-story',
   templateUrl: './home-story.component.html',
@@ -9,7 +10,8 @@ export class HomeStoryComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(){
+    AOS.init();
   }
 
 }
