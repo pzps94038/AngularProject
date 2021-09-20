@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { ProductComponent } from './product/product.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { HomeModule } from './home/home.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SharedMaterialModule } from './shared-material/shared-material.module';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +19,9 @@ import { HomeModule } from './home/home.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HomeModule
+    HomeModule,
+    BrowserAnimationsModule,
+    SharedMaterialModule
   ],
   providers: [Title],
   bootstrap: [AppComponent]
