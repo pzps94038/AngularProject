@@ -6,14 +6,14 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 @media(max-width:768px){
   .parallax {
     min-height: 400px;
   }
 }
-.coffeeStory{
-  img{
-    max-height: 600px;
-  }
+.storyImg{
+  max-height: 500px;
+}
+.story-list{
+  list-style: none;
 }
