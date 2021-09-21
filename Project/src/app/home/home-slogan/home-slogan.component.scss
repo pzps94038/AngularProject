@@ -1,3 +1,4 @@
+$font-color : #76554E;
 .sloganBox{
   position: relative;
   h2{
@@ -36,5 +37,32 @@
 @media(max-width:768px){
   .parallax {
     min-height: 200px;
+  }
+}
+.ProductType{
+    h2{
+    position: relative;
+    color: $font-color;
+    &:before{
+      content:'';
+      border-bottom:5px double $font-color;
+      position: absolute;
+      width: 10%;
+      left: 30%;
+      top: 25%;
+    }
+    &:after{
+      content:'';
+      border-bottom:5px double $font-color;
+      position: absolute;
+      width: 10%;
+      right: 30%;
+      top: 25%;
+    }
+  }
+  ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
 }

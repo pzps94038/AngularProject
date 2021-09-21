@@ -4,3 +4,9 @@
 .story-list{
   list-style: none;
 }
+@media(max-width: 768px){
+  .poetry{
+    display:none;
+  }
+}
+
