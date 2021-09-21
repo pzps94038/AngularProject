@@ -6,9 +6,21 @@
 </div>
 <div class="container-fluid ProductType my-5">
   <h2 class="fs-2 fw-bolder text-center mt-5 pb-4">商品列表</h2>
-  <ul>
-    <li></li>
-    <li></li>
-    <li></li>
+  <ul class="row justify-content-around">
+    <li class="col-md-4" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true">
+      <a class="nav-link fw-bolder" [routerLink]="['/product']">
+        <img src="../../../image/coffee.jpg" alt="coffee" class="img-fluid img-thumbnail">
+      </a>
+    </li>
+    <li  class="col-md-4" data-aos="fade-down" data-aos-duration="2000" data-aos-once="true">
+      <a class="nav-link fw-bolder" [routerLink]="['/product']">
+        <img src="../../../image/bread.jpg" alt="bread" class="img-fluid img-thumbnail">
+      </a>
+    </li>
+    <li  class="col-md-4" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true">
+      <a class="nav-link fw-bolder" [routerLink]="['/product']">
+        <img src="../../../image/de3.jpg" alt="dessert" class="img-fluid img-thumbnail">
+      </a>
+    </li>
   </ul>
 </div>

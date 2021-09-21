@@ -4,7 +4,7 @@ import { HomeComponent } from './home.component';
 import { HomeStoryComponent } from './home-story/home-story.component';
 import { HomeImageComponent } from './home-image/home-image.component';
 import { HomeSloganComponent } from './home-slogan/home-slogan.component';
-
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -16,6 +16,7 @@ import { HomeSloganComponent } from './home-slogan/home-slogan.component';
   ],
   imports: [
     CommonModule,
+    RouterModule
   ],
   exports: [HomeComponent]
 })
