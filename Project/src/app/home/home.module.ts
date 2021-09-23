@@ -5,6 +5,7 @@ import { HomeStoryComponent } from './home-story/home-story.component';
 import { HomeImageComponent } from './home-image/home-image.component';
 import { HomeSloganComponent } from './home-slogan/home-slogan.component';
 import { RouterModule } from '@angular/router';
+import { HomeFooterComponent } from './home-footer/home-footer.component';
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import { RouterModule } from '@angular/router';
     HomeStoryComponent,
     HomeImageComponent,
     HomeSloganComponent,
+    HomeFooterComponent,
   ],
   imports: [
     CommonModule,
