@@ -8,12 +8,14 @@ import { HomeModule } from './home/home.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SharedMaterialModule } from './shared/shared-material.module';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import { CoffeeComponent } from './product/coffee/coffee.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductComponent,
     ContactUsComponent,
+    CoffeeComponent,
   ],
   imports: [
     MDBBootstrapModule.forRoot(),
