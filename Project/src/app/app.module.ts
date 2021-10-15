@@ -9,6 +9,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SharedMaterialModule } from './shared/shared-material.module';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { CoffeeComponent } from './product/coffee/coffee.component';
+import { BreadComponent } from './product/bread/bread.component';
+import { DessertComponent } from './product/dessert/dessert.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +19,9 @@ import { CoffeeComponent } from './product/coffee/coffee.component';
     ProductComponent,
     ContactUsComponent,
     CoffeeComponent,
+    BreadComponent,
+    DessertComponent,
+    LoginComponent,
   ],
   imports: [
     MDBBootstrapModule.forRoot(),
